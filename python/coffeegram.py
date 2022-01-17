@@ -9,9 +9,9 @@ qr = qrcode.QRCode(
     border=4,
 )
 
-qr.add_data('https://github.com/enriqueardieanbudiono/test/blob/main/Screenshot%20(2).png')
+qr.add_data('https://coffeegram.github.io/working-experience/saprizal.html')
 qr.make(fit=True)
 
 img = qr.make_image(fill_color="black",back_color="white").convert('RGB')
 
-img.save("test.png")
+img.save("saprizal.png")
